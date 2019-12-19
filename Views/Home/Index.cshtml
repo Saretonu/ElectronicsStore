@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Eutroon electronics store</h1>
+    <p class="lead">Eutroon on suurim koduelektroonika ostugrupp Euroopas.  Eutrooni kett asutati 1990. aastal, liites endasse kohe 5 riiki - Saksamaa, Belgia, Hollandi, Hispaania ning Itaalia. Tänu pidevale kasvule on tänaseks Eutroonist saanud Euroopa suurim elektroonikakaupade ostugrupp, ühendades tänaseks 35 riiki ning pakkudes kvaliteettehnikat enam kui 11000-s kaupluses. Olles orienteerunud just Euroopa turule, pakub Eutroon elektroonikakaupu, kodutehnikat, telekommunikatsiooni- ja arvutikaupu enam kui 600 miljonile tarbijale.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Products</h2>
+        <p><a class="btn btn-default" @Html.ActionLink("Go to list", "Index", "Items") </a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Shopping carts</h2>
+        <p><a class="btn btn-default" @Html.ActionLink("Go to list", "Index", "ShoppingCarts") </a></p>
+    </div>
+</div>
